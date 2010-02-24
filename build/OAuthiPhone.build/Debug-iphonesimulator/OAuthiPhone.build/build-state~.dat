@@ -1,895 +1,0 @@
-TOAuthiPhone
-v7
-r0
-t288514533.426230
-cCheck dependencies
-cProcessInfoPlistFile /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/Info.plist OAuthiPhone-Info.plist
-cCompileXIB /Users/inblue/Documents/OAuthiPhone/MainWindow.xib
-cCompileXIB /Users/inblue/Documents/OAuthiPhone/OAuthiPhoneViewController.xib
-cProcessPCH /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch.gch OAuthiPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-ceifsnvnaumwvsfobnmzvfxtpvyl/OAuthiPhone_Prefix.pch.gch OAuthiPhone_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/main.o /Users/inblue/Documents/OAuthiPhone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneAppDelegate.o /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneViewController.o /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken.o /Users/inblue/Documents/OAuthiPhone/OAToken.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAConsumer.o /Users/inblue/Documents/OAuthiPhone/OAConsumer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAMutableURLRequest.o /Users/inblue/Documents/OAuthiPhone/OAMutableURLRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAHMAC_SHA1SignatureProvider.o /Users/inblue/Documents/OAuthiPhone/OAHMAC_SHA1SignatureProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAPlaintextSignatureProvider.o /Users/inblue/Documents/OAuthiPhone/OAPlaintextSignatureProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OARequestParameter.o /Users/inblue/Documents/OAuthiPhone/OARequestParameter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAServiceTicket.o /Users/inblue/Documents/OAuthiPhone/OAServiceTicket.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OADataFetcher.o /Users/inblue/Documents/OAuthiPhone/OADataFetcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAAsynchronousDataFetcher.o /Users/inblue/Documents/OAuthiPhone/OAAsynchronousDataFetcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken_KeychainExtensions.o /Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSString+URLEncoding.o /Users/inblue/Documents/OAuthiPhone/NSString+URLEncoding.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSMutableURLRequest+Parameters.o /Users/inblue/Documents/OAuthiPhone/NSMutableURLRequest+Parameters.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSURL+Base.o /Users/inblue/Documents/OAuthiPhone/NSURL+Base.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/Base64Transcoder.o /Users/inblue/Documents/OAuthiPhone/Crypto/Base64Transcoder.c normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthClientTest.o /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004AD2A65C00000000000000EE
-t1255319132
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDC853000000000026EE30
-t1253951571
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDC952000000000027E880
-t1253951826
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h
-c000000004ABDC81700000000000004F5
-t1253951511
-s1269
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Security.framework/Security
-c000000004ABDC81B00000000000799B0
-t1253951515
-s498096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDEEE200000000016721E0
-t1253961442
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
-c000000004748A1090000000000000DE2
-t1195942153
-s3554
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/math.h
-c000000004748A10600000000000004B7
-t1195942150
-s1207
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/stdlib.h
-c000000004748A1330000000000002A79
-t1195942195
-s10873
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/string.h
-c000000004748A1330000000000001731
-t1195942195
-s5937
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
-c000000004748AF950000000000000644
-t1195945877
-s1604
-
-N/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h
-c000000004B822A240000000000000314
-t1266821668
-s788
-i<Foundation/Foundation.h>
-i"OAuthConsumer/OAuthConsumer.h"
-i"OAuthConsumer/OAConsumer.h"
-
-N/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m
-c000000004B822A3A0000000000001100
-t1266821690
-s4352
-i"OAuthClientTest.h"
-
-N/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.h
-c000000004B82291500000000000001F6
-t1266821397
-s502
-i<UIKit/UIKit.h>
-
-N/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m
-c000000004B822915000000000000027D
-t1266821397
-s637
-i"OAuthiPhoneAppDelegate.h"
-i"OAuthiPhoneViewController.h"
-
-N/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h
-c000000004B822A600000000000000115
-t1266821728
-s277
-i<UIKit/UIKit.h>
-i"OAuthClientTest.h"
-
-N/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m
-c000000004B822A560000000000000675
-t1266821718
-s1653
-i"OAuthiPhoneViewController.h"
-
-N/Users/inblue/Documents/OAuthiPhone/Crypto/Base64Transcoder.c
-c000000004B80EAE8000000000000244A
-t1266739944
-s9290
-i"Base64Transcoder.h"
-i<math.h>
-i<string.h>
-
-N/Users/inblue/Documents/OAuthiPhone/Crypto/Base64Transcoder.h
-c000000004B80EAE80000000000000689
-t1266739944
-s1673
-i<stdlib.h>
-i<stdbool.h>
-
-N/Users/inblue/Documents/OAuthiPhone/MainWindow.xib
-c000000004B822915000000000000247A
-t1266821397
-s9338
-
-N/Users/inblue/Documents/OAuthiPhone/NSMutableURLRequest+Parameters.h
-c000000004B80EAE800000000000005AB
-t1266739944
-s1451
-i<Foundation/Foundation.h>
-i"OARequestParameter.h"
-i"NSURL+Base.h"
-
-N/Users/inblue/Documents/OAuthiPhone/NSMutableURLRequest+Parameters.m
-c000000004B80EAE80000000000000EC3
-t1266739944
-s3779
-i"NSMutableURLRequest+Parameters.h"
-
-N/Users/inblue/Documents/OAuthiPhone/NSString+URLEncoding.h
-c000000004B80EAE8000000000000055D
-t1266739944
-s1373
-i<Foundation/Foundation.h>
-
-N/Users/inblue/Documents/OAuthiPhone/NSString+URLEncoding.m
-c000000004B80EAE80000000000000850
-t1266739944
-s2128
-i"NSString+URLEncoding.h"
-
-N/Users/inblue/Documents/OAuthiPhone/NSURL+Base.h
-c000000004B80EAE80000000000000540
-t1266739944
-s1344
-i<Foundation/Foundation.h>
-
-N/Users/inblue/Documents/OAuthiPhone/NSURL+Base.m
-c000000004B80EAE800000000000005B1
-t1266739944
-s1457
-i"NSURL+Base.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAAsynchronousDataFetcher.h
-c000000004B80EAE80000000000000746
-t1266739944
-s1862
-i<Foundation/Foundation.h>
-i"OAMutableURLRequest.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAAsynchronousDataFetcher.m
-c000000004B80EAE80000000000000FDC
-t1266739944
-s4060
-i"OAAsynchronousDataFetcher.h"
-i"OAServiceTicket.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAConsumer.h
-c000000004B80EAE800000000000005CF
-t1266739944
-s1487
-i<Foundation/Foundation.h>
-
-N/Users/inblue/Documents/OAuthiPhone/OAConsumer.m
-c000000004B80EAE8000000000000061A
-t1266739944
-s1562
-i"OAConsumer.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OADataFetcher.h
-c000000004B80EAE800000000000006D6
-t1266739944
-s1750
-i<Foundation/Foundation.h>
-i"OAMutableURLRequest.h"
-i"OAServiceTicket.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OADataFetcher.m
-c000000004B80EAE80000000000000AB3
-t1266739944
-s2739
-i"OADataFetcher.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAHMAC_SHA1SignatureProvider.h
-c000000004B80EAE80000000000000573
-t1266739944
-s1395
-i<Foundation/Foundation.h>
-i"OASignatureProviding.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAHMAC_SHA1SignatureProvider.m
-c000000004B80EAE800000000000008C1
-t1266739944
-s2241
-i"OAHMAC_SHA1SignatureProvider.h"
-i<CommonCrypto/CommonHMAC.h>
-i"Base64Transcoder.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAMutableURLRequest.h
-c000000004B80EAE80000000000000978
-t1266739944
-s2424
-i<Foundation/Foundation.h>
-i"OAConsumer.h"
-i"OAToken.h"
-i"OAHMAC_SHA1SignatureProvider.h"
-i"OASignatureProviding.h"
-i"NSMutableURLRequest+Parameters.h"
-i"NSURL+Base.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAMutableURLRequest.m
-c000000004B80EAE80000000000001FAE
-t1266739944
-s8110
-i"OAMutableURLRequest.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAPlaintextSignatureProvider.h
-c000000004B80EAE80000000000000572
-t1266739944
-s1394
-i<Foundation/Foundation.h>
-i"OASignatureProviding.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAPlaintextSignatureProvider.m
-c000000004B80EAE800000000000005F4
-t1266739944
-s1524
-i"OAPlaintextSignatureProvider.h"
-i"NSString+URLEncoding.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OARequestParameter.h
-c000000004B80EAE800000000000006B5
-t1266739944
-s1717
-i<Foundation/Foundation.h>
-i"NSString+URLEncoding.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OARequestParameter.m
-c000000004B80EAE800000000000007ED
-t1266739944
-s2029
-i"OARequestParameter.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAServiceTicket.h
-c000000004B80EAE80000000000000695
-t1266739944
-s1685
-i<Foundation/Foundation.h>
-i"OAMutableURLRequest.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAServiceTicket.m
-c000000004B80EAE80000000000000692
-t1266739944
-s1682
-i"OAServiceTicket.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OASignatureProviding.h
-c000000004B80EAE8000000000000057A
-t1266739944
-s1402
-i<Foundation/Foundation.h>
-
-N/Users/inblue/Documents/OAuthiPhone/OAToken.h
-c000000004B80EAE800000000000006BD
-t1266739944
-s1725
-i<Foundation/Foundation.h>
-
-N/Users/inblue/Documents/OAuthiPhone/OAToken.m
-c000000004B80EAE80000000000000CF2
-t1266739944
-s3314
-i"OAToken.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.h
-c000000004B80EAE80000000000000247
-t1266739944
-s583
-i"OAToken.h"
-i<Security/Security.h>
-
-N/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m
-c000000004B80EAE80000000000000C6D
-t1266739944
-s3181
-i"OAToken_KeychainExtensions.h"
-
-N/Users/inblue/Documents/OAuthiPhone/OAuthiPhoneViewController.xib
-c000000004B82291500000000000018EB
-t1266821397
-s6379
-
-N/Users/inblue/Documents/OAuthiPhone/OAuthiPhone_Prefix.pch
-c000000004B82291500000000000000BF
-t1266821397
-s191
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app
-t2
-s0
-
-N/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app.dSYM
-t2
-s0
-
-N/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/Info.plist
-t1266821729
-s580
-
-N/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/MainWindow.nib
-t1266821730
-s1503
-
-N/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/OAuthiPhone
-t2
-s0
-
-N/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/OAuthiPhoneViewController.nib
-t1266821730
-s1151
-
-N/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/PkgInfo
-t1266821729
-s8
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/Base64Transcoder.o
-t1266821733
-s7928
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSMutableURLRequest+Parameters.o
-t1266821733
-s13532
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSString+URLEncoding.o
-t1266821733
-s7688
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSURL+Base.o
-t1266821733
-s6356
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAAsynchronousDataFetcher.o
-t1266821733
-s15960
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAConsumer.o
-t1266821732
-s9500
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OADataFetcher.o
-t1266821733
-s9836
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAHMAC_SHA1SignatureProvider.o
-t1266821732
-s10264
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAMutableURLRequest.o
-t1266821732
-s24632
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAPlaintextSignatureProvider.o
-t1266821732
-s7564
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OARequestParameter.o
-t1266821733
-s12048
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAServiceTicket.o
-t1266821733
-s11632
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken.o
-t1266821732
-s16076
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken_KeychainExtensions.o
-t2
-s0
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthClientTest.o
-t2
-s0
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhone.LinkFileList
-c000000004B822A6100000000000009F1
-t1266821729
-s2545
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneAppDelegate.o
-t2
-s0
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneViewController.o
-t2
-s0
-
-N/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/main.o
-t1266821732
-s5952
-
-N/Users/inblue/Documents/OAuthiPhone/main.m
-c000000004B822915000000000000016C
-t1266821397
-s364
-i<UIKit/UIKit.h>
-
-N/var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-ceifsnvnaumwvsfobnmzvfxtpvyl/OAuthiPhone_Prefix.pch.gch
-t1266821731
-s2142576
-
-N/var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch.gch
-t1266821732
-s13034960
-
-NOAuthiPhone-Info.plist
-c000000004B822915000000000000038D
-t1266821397
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies288514529#288514529#0(0"0(0#1#0"4300885448#0"0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/Base64Transcoder.o /Users/inblue/Documents/OAuthiPhone/Crypto/Base64Transcoder.c normal i386 c com.apple.compilers.gcc.4_2
-s288514533.278008
-e288514533.426142
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/Base64Transcoder.o
-x/Users/inblue/Documents/OAuthiPhone/Crypto/Base64Transcoder.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/inblue/Documents/OAuthiPhone/Crypto/Base64Transcoder.c288514533#288514533#0(0"0(0#0#61"/Users/inblue/Documents/OAuthiPhone/Crypto/Base64Transcoder.c4300885448#1927"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-ceifsnvnaumwvsfobnmzvfxtpvyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/Crypto/Base64Transcoder.c -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/Base64Transcoder.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSMutableURLRequest+Parameters.o /Users/inblue/Documents/OAuthiPhone/NSMutableURLRequest+Parameters.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514533.169946
-e288514533.277889
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSMutableURLRequest+Parameters.o
-x/Users/inblue/Documents/OAuthiPhone/NSMutableURLRequest+Parameters.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/inblue/Documents/OAuthiPhone/NSMutableURLRequest+Parameters.m288514533#288514533#0(0"0(0#0#68"/Users/inblue/Documents/OAuthiPhone/NSMutableURLRequest+Parameters.m4300885448#1958"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/NSMutableURLRequest+Parameters.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSMutableURLRequest+Parameters.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSString+URLEncoding.o /Users/inblue/Documents/OAuthiPhone/NSString+URLEncoding.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514533.155522
-e288514533.251963
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSString+URLEncoding.o
-x/Users/inblue/Documents/OAuthiPhone/NSString+URLEncoding.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/inblue/Documents/OAuthiPhone/NSString+URLEncoding.m288514533#288514533#0(0"0(0#0#58"/Users/inblue/Documents/OAuthiPhone/NSString+URLEncoding.m4300885448#1938"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/NSString+URLEncoding.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSString+URLEncoding.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSURL+Base.o /Users/inblue/Documents/OAuthiPhone/NSURL+Base.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514533.252087
-e288514533.331733
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSURL+Base.o
-x/Users/inblue/Documents/OAuthiPhone/NSURL+Base.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/inblue/Documents/OAuthiPhone/NSURL+Base.m288514533#288514533#0(0"0(0#0#48"/Users/inblue/Documents/OAuthiPhone/NSURL+Base.m4300885448#1918"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/NSURL+Base.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/NSURL+Base.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAAsynchronousDataFetcher.o /Users/inblue/Documents/OAuthiPhone/OAAsynchronousDataFetcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514533.046420
-e288514533.155350
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAAsynchronousDataFetcher.o
-x/Users/inblue/Documents/OAuthiPhone/OAAsynchronousDataFetcher.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/inblue/Documents/OAuthiPhone/OAAsynchronousDataFetcher.m288514533#288514533#0(0"0(0#0#63"/Users/inblue/Documents/OAuthiPhone/OAAsynchronousDataFetcher.m4300885448#1948"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OAAsynchronousDataFetcher.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAAsynchronousDataFetcher.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAConsumer.o /Users/inblue/Documents/OAuthiPhone/OAConsumer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.694947
-e288514532.788010
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAConsumer.o
-x/Users/inblue/Documents/OAuthiPhone/OAConsumer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/inblue/Documents/OAuthiPhone/OAConsumer.m288514532#288514532#0(0"0(0#0#48"/Users/inblue/Documents/OAuthiPhone/OAConsumer.m4300885448#1918"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OAConsumer.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAConsumer.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OADataFetcher.o /Users/inblue/Documents/OAuthiPhone/OADataFetcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514533.005841
-e288514533.078961
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OADataFetcher.o
-x/Users/inblue/Documents/OAuthiPhone/OADataFetcher.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/inblue/Documents/OAuthiPhone/OADataFetcher.m288514533#288514533#0(0"0(0#0#51"/Users/inblue/Documents/OAuthiPhone/OADataFetcher.m4300885448#1924"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OADataFetcher.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OADataFetcher.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAHMAC_SHA1SignatureProvider.o /Users/inblue/Documents/OAuthiPhone/OAHMAC_SHA1SignatureProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.788133
-e288514532.881185
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAHMAC_SHA1SignatureProvider.o
-x/Users/inblue/Documents/OAuthiPhone/OAHMAC_SHA1SignatureProvider.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/inblue/Documents/OAuthiPhone/OAHMAC_SHA1SignatureProvider.m288514532#288514532#0(0"0(0#0#66"/Users/inblue/Documents/OAuthiPhone/OAHMAC_SHA1SignatureProvider.m4300885448#1954"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OAHMAC_SHA1SignatureProvider.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAHMAC_SHA1SignatureProvider.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAMutableURLRequest.o /Users/inblue/Documents/OAuthiPhone/OAMutableURLRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.744809
-e288514532.911445
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAMutableURLRequest.o
-x/Users/inblue/Documents/OAuthiPhone/OAMutableURLRequest.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/inblue/Documents/OAuthiPhone/OAMutableURLRequest.m288514532#288514532#0(0"0(0#0#57"/Users/inblue/Documents/OAuthiPhone/OAMutableURLRequest.m4300885448#1936"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OAMutableURLRequest.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAMutableURLRequest.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAPlaintextSignatureProvider.o /Users/inblue/Documents/OAuthiPhone/OAPlaintextSignatureProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.881304
-e288514532.972763
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAPlaintextSignatureProvider.o
-x/Users/inblue/Documents/OAuthiPhone/OAPlaintextSignatureProvider.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/inblue/Documents/OAuthiPhone/OAPlaintextSignatureProvider.m288514532#288514532#0(0"0(0#0#66"/Users/inblue/Documents/OAuthiPhone/OAPlaintextSignatureProvider.m4300885448#1954"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OAPlaintextSignatureProvider.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAPlaintextSignatureProvider.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OARequestParameter.o /Users/inblue/Documents/OAuthiPhone/OARequestParameter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.911561
-e288514533.005718
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OARequestParameter.o
-x/Users/inblue/Documents/OAuthiPhone/OARequestParameter.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/inblue/Documents/OAuthiPhone/OARequestParameter.m288514532#288514533#0(0"0(0#0#56"/Users/inblue/Documents/OAuthiPhone/OARequestParameter.m4300885448#1934"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OARequestParameter.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OARequestParameter.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAServiceTicket.o /Users/inblue/Documents/OAuthiPhone/OAServiceTicket.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.972894
-e288514533.045948
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAServiceTicket.o
-x/Users/inblue/Documents/OAuthiPhone/OAServiceTicket.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/inblue/Documents/OAuthiPhone/OAServiceTicket.m288514532#288514533#0(0"0(0#0#53"/Users/inblue/Documents/OAuthiPhone/OAServiceTicket.m4300885448#1928"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OAServiceTicket.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAServiceTicket.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken.o /Users/inblue/Documents/OAuthiPhone/OAToken.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.647846
-e288514532.744695
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken.o
-x/Users/inblue/Documents/OAuthiPhone/OAToken.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/inblue/Documents/OAuthiPhone/OAToken.m288514532#288514532#0(0"0(0#0#45"/Users/inblue/Documents/OAuthiPhone/OAToken.m4300885448#1912"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OAToken.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken.o0#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken_KeychainExtensions.o /Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514533.079184
-e288514533.169831
-r0
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken_KeychainExtensions.o
-x/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:9:
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.h:17: error: expected ')' before 'SecKeychainRef'
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m: In function '-[OAToken(OAToken_KeychainExtensions) initWithKeychainUsingAppName:serviceProviderName:]':
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:16: error: 'SecKeychainItemRef' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:16: error: (Each undeclared identifier is reported only once
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:16: error: for each function it appears in.)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:16: error: expected ';' before 'item'
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:18: warning: implicit declaration of function 'SecKeychainFindGenericPassword'
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:25: error: 'item' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:33: error: 'SecKeychainAttribute' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:33: error: expected ';' before 'attributes'
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:34: error: 'SecKeychainAttributeList' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:34: error: expected ';' before 'list'
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:36: error: 'attributes' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:36: error: 'kSecAccountItemAttr' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:37: error: 'kSecDescriptionItemAttr' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:38: error: 'kSecLabelItemAttr' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:39: error: 'kSecModDateItemAttr' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:41: error: 'list' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:44: warning: implicit declaration of function 'SecKeychainItemCopyContent'
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:48: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:363)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:58: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:61: warning: implicit declaration of function 'SecKeychainItemFreeContent'
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m: At top level:
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:80: error: expected ')' before 'SecKeychainRef'
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m: In function '-[OAToken(OAToken_KeychainExtensions) storeInKeychain:appName:serviceProviderName:]':
-o/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:82: warning: implicit declaration of function 'SecKeychainAddGenericPassword'
-lSLF07#2@72"Compile /Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288514533#288514533#0(3770"In file included from /Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:9:/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.h:17: error: expected ')' before 'SecKeychainRef'/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m: In function '-[OAToken(OAToken_KeychainExtensions) initWithKeychainUsingAppName:serviceProviderName:]':/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:16: error: 'SecKeychainItemRef' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:16: error: (Each undeclared identifier is reported only once/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:16: error: for each function it appears in.)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:16: error: expected ';' before 'item'/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:18: warning: implicit declaration of function 'SecKeychainFindGenericPassword'/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:25: error: 'item' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:33: error: 'SecKeychainAttribute' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:33: error: expected ';' before 'attributes'/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:34: error: 'SecKeychainAttributeList' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:34: error: expected ';' before 'list'/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:36: error: 'attributes' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:36: error: 'kSecAccountItemAttr' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:37: error: 'kSecDescriptionItemAttr' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:38: error: 'kSecLabelItemAttr' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:39: error: 'kSecModDateItemAttr' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:41: error: 'list' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:44: warning: implicit declaration of function 'SecKeychainItemCopyContent'/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:48: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:363)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:58: warning: 'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:61: warning: implicit declaration of function 'SecKeychainItemFreeContent'/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m: At top level:/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:80: error: expected ')' before 'SecKeychainRef'/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m: In function '-[OAToken(OAToken_KeychainExtensions) storeInKeychain:appName:serviceProviderName:]':/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m:82: warning: implicit declaration of function 'SecKeychainAddGenericPassword'22(4@36"Expected ')' before 'SecKeychainRef'288514533#90#113#2(7@86"In file included from /Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288514533#18446744073709551615#0#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#9#0#9#0#0"0(13@104"Expected ')' before 'SecKeychainRef' in /Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.h288514533#18446744073709551615#0#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.h288432744#17#0#17#0#0"0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.h288432744#17#0#17#0#19"expected * before *0(4@60"'SecKeychainItemRef' undeclared (first use in this function)288514533#373#137#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#16#0#16#0#43"'*' undeclared (first use in this function)0(4@26"Expected ';' before 'item'288514533#746#103#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#16#0#16#0#19"expected * before *0(22@65"Implicit declaration of function 'SecKeychainFindGenericPassword'288514533#849#144#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#18#0#18#0#36"implicit declaration of function '*'0(4@46"'item' undeclared (first use in this function)288514533#993#123#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#25#0#25#0#43"'*' undeclared (first use in this function)0(4@62"'SecKeychainAttribute' undeclared (first use in this function)288514533#1116#139#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#33#0#33#0#43"'*' undeclared (first use in this function)0(4@32"Expected ';' before 'attributes'288514533#1255#109#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#33#0#33#0#19"expected * before *0(4@66"'SecKeychainAttributeList' undeclared (first use in this function)288514533#1364#143#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#34#0#34#0#43"'*' undeclared (first use in this function)0(4@26"Expected ';' before 'list'288514533#1507#103#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#34#0#34#0#19"expected * before *0(4@52"'attributes' undeclared (first use in this function)288514533#1610#129#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#36#0#36#0#43"'*' undeclared (first use in this function)0(4@61"'kSecAccountItemAttr' undeclared (first use in this function)288514533#1739#138#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#36#0#36#0#43"'*' undeclared (first use in this function)0(4@65"'kSecDescriptionItemAttr' undeclared (first use in this function)288514533#1877#142#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#37#0#37#0#43"'*' undeclared (first use in this function)0(4@59"'kSecLabelItemAttr' undeclared (first use in this function)288514533#2019#136#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#38#0#38#0#43"'*' undeclared (first use in this function)0(4@61"'kSecModDateItemAttr' undeclared (first use in this function)288514533#2155#138#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#39#0#39#0#43"'*' undeclared (first use in this function)0(4@46"'list' undeclared (first use in this function)288514533#2293#123#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#41#0#41#0#43"'*' undeclared (first use in this function)0(22@61"Implicit declaration of function 'SecKeychainItemCopyContent'288514533#2416#140#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#44#0#44#0#36"implicit declaration of function '*'0(22@211"'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:363)288514533#2556#290#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#48#0#48#0#33"'*' is deprecated (declared at *)0(22@204"'stringWithCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)288514533#2846#283#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#58#0#58#0#33"'*' is deprecated (declared at *)0(22@61"Implicit declaration of function 'SecKeychainItemFreeContent'288514533#3129#140#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#61#0#61#0#36"implicit declaration of function '*'0(23@13"At top level:288514533#3269#80#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#0#0#0#0#0"0(4@36"Expected ')' before 'SecKeychainRef'288514533#3349#113#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#80#0#80#0#19"expected * before *0(22@64"Implicit declaration of function 'SecKeychainAddGenericPassword'288514533#3627#143#0(6@64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m288432744#82#0#82#0#36"implicit declaration of function '*'0(0#0#64"/Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m4300885448#1950"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/OAToken_KeychainExtensions.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAToken_KeychainExtensions.o1#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthClientTest.o /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514533.331852
-e288514533.392408
-r0
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthClientTest.o
-x/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:9:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:10:40: error: OAuthConsumer/OAuthConsumer.h: No such file or directory
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:11:37: error: OAuthConsumer/OAConsumer.h: No such file or directory
-oIn file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:9:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:39: warning: '@end' must appear in an @implementation context
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest init]':
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: receiver 'OAConsumer' is a forward class and corresponding @interface may not exist
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: no '-initWithKey:secret:' method found
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: (Messages without a matching method signature
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: will be assumed to return 'id' and accept
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: '...' as arguments.)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest requestRequestToken]':
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:36: error: 'OAMutableURLRequest' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:36: error: (Each undeclared identifier is reported only once
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:36: error: for each function it appears in.)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:36: error: 'request' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:43: error: 'OADataFetcher' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:43: error: 'fetcher' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:48: error: expected ')' before 'OAServiceTicket'
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest requestTokenTicket:didFinishWithData:]':
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:50: error: request for member 'didSucceed' in something not a structure or union
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:52: warning: receiver 'OAToken' is a forward class and corresponding @interface may not exist
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:52: warning: no '-initWithHTTPResponseBody:' method found
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:57: error: expected ')' before 'OAServiceTicket'
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest authorize]':
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:64: error: 'NSWorkspace' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:65: error: accessing unknown 'key' component of a property
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest requestAccessToken]':
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:70: error: 'OAMutableURLRequest' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:70: error: 'request' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:77: error: 'OADataFetcher' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:77: error: 'fetcher' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:85: error: expected ')' before 'OAServiceTicket'
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest accessTokenTicket:didFinishWithData:]':
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:87: error: request for member 'didSucceed' in something not a structure or union
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:89: warning: receiver 'OAToken' is a forward class and corresponding @interface may not exist
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:89: warning: no '-initWithHTTPResponseBody:' method found
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:94: error: expected ')' before 'OAServiceTicket'
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest accessResource]':
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:102: error: 'OAMutableURLRequest' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:102: error: 'request' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:107: error: 'OAHMAC_SHA1SignatureProvider' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:108: error: 'OADataFetcher' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:108: error: 'fetcher' undeclared (first use in this function)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:115: error: expected ')' before 'OAServiceTicket'
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest apiTicket:didFinishWithData:]':
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:117: error: request for member 'didSucceed' in something not a structure or union
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:123: error: expected ')' before 'OAServiceTicket'
-o{standard input}:115:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
-o{standard input}:115:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
-o{standard input}:108:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
-o{standard input}:108:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:100:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
-o{standard input}:100:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
-o{standard input}:92:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
-o{standard input}:92:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
-o{standard input}:89:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"
-o{standard input}:89:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
-o{standard input}:80:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
-o{standard input}:80:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
-o{standard input}:76:non-relocatable subtraction expression, "L_OBJC_CLASS_OAuthClientTest" minus "L00000000001$pb"
-o{standard input}:76:symbol: "L_OBJC_CLASS_OAuthClientTest" can't be undefined in a subtraction expression
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_OAuthClientTest
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
-lSLF07#2@69"Compile /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514533#288514533#0(8469"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:9:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:10:40: error: OAuthConsumer/OAuthConsumer.h: No such file or directory/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:11:37: error: OAuthConsumer/OAConsumer.h: No such file or directoryIn file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:9:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:39: warning: '@end' must appear in an @implementation context/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest init]':/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: receiver 'OAConsumer' is a forward class and corresponding @interface may not exist/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: no '-initWithKey:secret:' method found/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: (Messages without a matching method signature/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: will be assumed to return 'id' and accept/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:29: warning: '...' as arguments.)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest requestRequestToken]':/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:36: error: 'OAMutableURLRequest' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:36: error: (Each undeclared identifier is reported only once/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:36: error: for each function it appears in.)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:36: error: 'request' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:43: error: 'OADataFetcher' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:43: error: 'fetcher' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:48: error: expected ')' before 'OAServiceTicket'/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest requestTokenTicket:didFinishWithData:]':/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:50: error: request for member 'didSucceed' in something not a structure or union/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:52: warning: receiver 'OAToken' is a forward class and corresponding @interface may not exist/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:52: warning: no '-initWithHTTPResponseBody:' method found/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:57: error: expected ')' before 'OAServiceTicket'/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest authorize]':/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:64: error: 'NSWorkspace' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:65: error: accessing unknown 'key' component of a property/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest requestAccessToken]':/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:70: error: 'OAMutableURLRequest' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:70: error: 'request' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:77: error: 'OADataFetcher' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:77: error: 'fetcher' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:85: error: expected ')' before 'OAServiceTicket'/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest accessTokenTicket:didFinishWithData:]':/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:87: error: request for member 'didSucceed' in something not a structure or union/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:89: warning: receiver 'OAToken' is a forward class and corresponding @interface may not exist/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:89: warning: no '-initWithHTTPResponseBody:' method found/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:94: error: expected ')' before 'OAServiceTicket'/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest accessResource]':/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:102: error: 'OAMutableURLRequest' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:102: error: 'request' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:107: error: 'OAHMAC_SHA1SignatureProvider' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:108: error: 'OADataFetcher' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:108: error: 'fetcher' undeclared (first use in this function)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:115: error: expected ')' before 'OAServiceTicket'/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: In function '-[OAuthClientTest apiTicket:didFinishWithData:]':/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:117: error: request for member 'didSucceed' in something not a structure or union/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m: At top level:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m:123: error: expected ')' before 'OAServiceTicket'{standard input}:115:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:115:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:108:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:108:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:100:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:100:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:92:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:92:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:89:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"{standard input}:89:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:80:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:80:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:76:non-relocatable subtraction expression, "L_OBJC_CLASS_OAuthClientTest" minus "L00000000001$pb"{standard input}:76:symbol: "L_OBJC_CLASS_OAuthClientTest" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_OAuthClientTest{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_440(4@56"OAuthConsumer/OAuthConsumer.h: No such file or directory288514533#87#133#2(7@83"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514533#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#9#0#9#0#0"0(13@121"OAuthConsumer/OAuthConsumer.h: No such file or directory in /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514533#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#10#0#10#0#0"0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#10#0#10#0#28"*: No such file or directory0(4@53"OAuthConsumer/OAConsumer.h: No such file or directory288514533#220#130#2(7@83"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514533#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#9#0#9#0#0"0(13@118"OAuthConsumer/OAConsumer.h: No such file or directory in /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514533#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#11#0#11#0#0"0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#11#0#11#0#28"*: No such file or directory0(22@48"'@end' must appear in an @implementation context288514533#437#124#2(7@83"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514533#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#9#0#9#0#0"0(13@113"'@end' must appear in an @implementation context in /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514533#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#39#0#39#0#0"0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#39#0#39#0#0"0(22@83"Receiver 'OAConsumer' is a forward class and corresponding @interface may not exist288514533#663#159#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#29#0#29#0#0"0(22@38"No '-initWithKey:secret:' method found288514533#822#114#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#29#0#29#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)288514533#936#121#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#29#0#29#0#0"0(4@61"'OAMutableURLRequest' undeclared (first use in this function)288514533#1387#135#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#36#0#36#0#43"'*' undeclared (first use in this function)0(4@49"'request' undeclared (first use in this function)288514533#1752#123#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#36#0#36#0#43"'*' undeclared (first use in this function)0(4@55"'OADataFetcher' undeclared (first use in this function)288514533#1875#129#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#43#0#43#0#43"'*' undeclared (first use in this function)0(4@49"'fetcher' undeclared (first use in this function)288514533#2004#123#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#43#0#43#0#43"'*' undeclared (first use in this function)0(23@13"At top level:288514533#2127#77#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#0#0#0#0#0"0(4@37"Expected ')' before 'OAServiceTicket'288514533#2204#111#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#48#0#48#0#19"expected * before *0(4@69"Request for member 'didSucceed' in something not a structure or union288514533#2450#143#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#50#0#50#0#0"0(22@80"Receiver 'OAToken' is a forward class and corresponding @interface may not exist288514533#2593#156#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#52#0#52#0#0"0(22@44"No '-initWithHTTPResponseBody:' method found288514533#2749#120#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#52#0#52#0#19"no '*' method found0(23@13"At top level:288514533#2869#77#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#0#0#0#0#0"0(4@37"Expected ')' before 'OAServiceTicket'288514533#2946#111#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#57#0#57#0#19"expected * before *0(4@53"'NSWorkspace' undeclared (first use in this function)288514533#3164#127#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#64#0#64#0#43"'*' undeclared (first use in this function)0(4@47"Accessing unknown 'key' component of a property288514533#3291#121#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#65#0#65#0#0"0(4@61"'OAMutableURLRequest' undeclared (first use in this function)288514533#3528#135#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#70#0#70#0#43"'*' undeclared (first use in this function)0(4@49"'request' undeclared (first use in this function)288514533#3663#123#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#70#0#70#0#43"'*' undeclared (first use in this function)0(4@55"'OADataFetcher' undeclared (first use in this function)288514533#3786#129#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#77#0#77#0#43"'*' undeclared (first use in this function)0(4@49"'fetcher' undeclared (first use in this function)288514533#3915#123#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#77#0#77#0#43"'*' undeclared (first use in this function)0(23@13"At top level:288514533#4038#77#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#0#0#0#0#0"0(4@37"Expected ')' before 'OAServiceTicket'288514533#4115#111#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#85#0#85#0#19"expected * before *0(4@69"Request for member 'didSucceed' in something not a structure or union288514533#4360#143#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#87#0#87#0#0"0(22@80"Receiver 'OAToken' is a forward class and corresponding @interface may not exist288514533#4503#156#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#89#0#89#0#0"0(22@44"No '-initWithHTTPResponseBody:' method found288514533#4659#120#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#89#0#89#0#19"no '*' method found0(23@13"At top level:288514533#4779#77#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#0#0#0#0#0"0(4@37"Expected ')' before 'OAServiceTicket'288514533#4856#111#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#94#0#94#0#19"expected * before *0(4@61"'OAMutableURLRequest' undeclared (first use in this function)288514533#5079#136#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#102#0#102#0#43"'*' undeclared (first use in this function)0(4@49"'request' undeclared (first use in this function)288514533#5215#124#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#102#0#102#0#43"'*' undeclared (first use in this function)0(4@70"'OAHMAC_SHA1SignatureProvider' undeclared (first use in this function)288514533#5339#145#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#107#0#107#0#43"'*' undeclared (first use in this function)0(4@55"'OADataFetcher' undeclared (first use in this function)288514533#5484#130#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#108#0#108#0#43"'*' undeclared (first use in this function)0(4@49"'fetcher' undeclared (first use in this function)288514533#5614#124#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#108#0#108#0#43"'*' undeclared (first use in this function)0(23@13"At top level:288514533#5738#77#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#0#0#0#0#0"0(4@37"Expected ')' before 'OAServiceTicket'288514533#5815#112#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#115#0#115#0#19"expected * before *0(4@69"Request for member 'didSucceed' in something not a structure or union288514533#6053#144#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#117#0#117#0#0"0(23@13"At top level:288514533#6197#77#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#0#0#0#0#0"0(4@37"Expected ')' before 'OAServiceTicket'288514533#6274#112#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m288514490#123#0#123#0#19"expected * before *0(0#0#61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m4300885448#1936"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthClientTest.o1#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneAppDelegate.o /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.344882
-e288514532.647739
-r0
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneAppDelegate.o
-x/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h:10,
-o                 from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m:10:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:10:40: error: OAuthConsumer/OAuthConsumer.h: No such file or directory
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:11:37: error: OAuthConsumer/OAConsumer.h: No such file or directory
-oIn file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h:10,
-o                 from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m:10:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:39: warning: '@end' must appear in an @implementation context
-lSLF07#2@76"Compile /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m288514532#288514532#0(773"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h:10,                 from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m:10:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:10:40: error: OAuthConsumer/OAuthConsumer.h: No such file or directory/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:11:37: error: OAuthConsumer/OAConsumer.h: No such file or directoryIn file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h:10,                 from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m:10:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:39: warning: '@end' must appear in an @implementation context3(4@56"OAuthConsumer/OAuthConsumer.h: No such file or directory288514532#193#133#3(7@90"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m288514532#18446744073709551615#0#0(6@68"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m288514197#10#0#10#0#0"0(7@93"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514532#18446744073709551615#0#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514528#10#0#10#0#0"0(13@121"OAuthConsumer/OAuthConsumer.h: No such file or directory in /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514532#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#10#0#10#0#0"0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#10#0#10#0#28"*: No such file or directory0(4@53"OAuthConsumer/OAConsumer.h: No such file or directory288514532#326#130#3(7@90"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m288514532#18446744073709551615#0#0(6@68"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m288514197#10#0#10#0#0"0(7@93"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514532#18446744073709551615#0#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514528#10#0#10#0#0"0(13@118"OAuthConsumer/OAConsumer.h: No such file or directory in /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514532#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#11#0#11#0#0"0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#11#0#11#0#28"*: No such file or directory0(22@48"'@end' must appear in an @implementation context288514532#649#124#3(7@90"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m288514532#18446744073709551615#0#0(6@68"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m288514197#10#0#10#0#0"0(7@93"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514532#18446744073709551615#0#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514528#10#0#10#0#0"0(13@113"'@end' must appear in an @implementation context in /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514532#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#39#0#39#0#0"0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#39#0#39#0#0"0(0#0#68"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m4300885448#1950"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneAppDelegate.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneAppDelegate.o1#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneViewController.o /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.600036
-e288514532.694836
-r0
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneViewController.o
-x/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h:10,
-o                 from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:9:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:10:40: error: OAuthConsumer/OAuthConsumer.h: No such file or directory
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:11:37: error: OAuthConsumer/OAConsumer.h: No such file or directory
-oIn file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h:10,
-o                 from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:9:
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:39: warning: '@end' must appear in an @implementation context
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m: In function '-[OAuthiPhoneViewController loadView]':
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:29: warning: 'OAuthClientTest' may not respond to '-requestRequestToken'
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:29: warning: (Messages without a matching method signature
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:29: warning: will be assumed to return 'id' and accept
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:29: warning: '...' as arguments.)
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:30: warning: 'OAuthClientTest' may not respond to '-authorize'
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:32: warning: 'OAuthClientTest' may not respond to '-requestAccessToken'
-o/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:33: warning: 'OAuthClientTest' may not respond to '-accessResource'
-lSLF07#2@79"Compile /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514532#288514532#0(1831"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h:10,                 from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:9:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:10:40: error: OAuthConsumer/OAuthConsumer.h: No such file or directory/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:11:37: error: OAuthConsumer/OAConsumer.h: No such file or directoryIn file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h:10,                 from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:9:/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h:39: warning: '@end' must appear in an @implementation context/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m: In function '-[OAuthiPhoneViewController loadView]':/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:29: warning: 'OAuthClientTest' may not respond to '-requestRequestToken'/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:29: warning: (Messages without a matching method signature/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:29: warning: will be assumed to return 'id' and accept/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:29: warning: '...' as arguments.)/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:30: warning: 'OAuthClientTest' may not respond to '-authorize'/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:32: warning: 'OAuthClientTest' may not respond to '-requestAccessToken'/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m:33: warning: 'OAuthClientTest' may not respond to '-accessResource'8(4@56"OAuthConsumer/OAuthConsumer.h: No such file or directory288514532#195#133#3(7@93"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514532#18446744073709551615#0#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514518#9#0#9#0#0"0(7@93"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514532#18446744073709551615#0#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514528#10#0#10#0#0"0(13@121"OAuthConsumer/OAuthConsumer.h: No such file or directory in /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514532#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#10#0#10#0#0"0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#10#0#10#0#28"*: No such file or directory0(4@53"OAuthConsumer/OAConsumer.h: No such file or directory288514532#328#130#3(7@93"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514532#18446744073709551615#0#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514518#9#0#9#0#0"0(7@93"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514532#18446744073709551615#0#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514528#10#0#10#0#0"0(13@118"OAuthConsumer/OAConsumer.h: No such file or directory in /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514532#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#11#0#11#0#0"0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#11#0#11#0#28"*: No such file or directory0(22@48"'@end' must appear in an @implementation context288514532#653#124#3(7@93"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514532#18446744073709551615#0#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514518#9#0#9#0#0"0(7@93"In file included from /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514532#18446744073709551615#0#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.h288514528#10#0#10#0#0"0(13@113"'@end' must appear in an @implementation context in /Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514532#18446744073709551615#0#0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#39#0#39#0#0"0(6@61"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthClientTest.h288514468#39#0#39#0#0"0(22@59"'OAuthClientTest' may not respond to '-requestRequestToken'288514532#903#145#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514518#29#0#29#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)288514532#1048#131#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514518#29#0#29#0#0"0(22@49"'OAuthClientTest' may not respond to '-authorize'288514532#1412#135#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514518#30#0#30#0#26"'*' may not respond to '*'0(22@58"'OAuthClientTest' may not respond to '-requestAccessToken'288514532#1547#144#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514518#32#0#32#0#26"'*' may not respond to '*'0(22@54"'OAuthClientTest' may not respond to '-accessResource'288514532#1691#140#0(6@71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m288514518#33#0#33#0#26"'*' may not respond to '*'0(0#0#71"/Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m4300885448#1956"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/Classes/OAuthiPhoneViewController.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/OAuthiPhoneViewController.o1#
-
-CCompileC build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/main.o /Users/inblue/Documents/OAuthiPhone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514532.343697
-e288514532.599924
-r1
-xCompileC
-xbuild/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/main.o
-x/Users/inblue/Documents/OAuthiPhone/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/inblue/Documents/OAuthiPhone/main.m288514532#288514532#0(0"0(0#0#42"/Users/inblue/Documents/OAuthiPhone/main.m4300885448#1906"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -include /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch -c /Users/inblue/Documents/OAuthiPhone/main.m -o /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/inblue/Documents/OAuthiPhone/MainWindow.xib
-s288514529.931225
-e288514530.736331
-r1
-xCompileXIB
-x/Users/inblue/Documents/OAuthiPhone/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib288514529#288514530#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#50"/Users/inblue/Documents/OAuthiPhone/MainWindow.xib4300885448#477"    cd /Users/inblue/Documents/OAuthiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/MainWindow.nib /Users/inblue/Documents/OAuthiPhone/MainWindow.xib0#
-
-CCompileXIB /Users/inblue/Documents/OAuthiPhone/OAuthiPhoneViewController.xib
-s288514529.932856
-e288514530.736493
-r1
-xCompileXIB
-x/Users/inblue/Documents/OAuthiPhone/OAuthiPhoneViewController.xib
-lSLF07#2@40"CompileXIB OAuthiPhoneViewController.xib288514529#288514530#0(0"0(0#0#65"/Users/inblue/Documents/OAuthiPhone/OAuthiPhoneViewController.xib4300885448#507"    cd /Users/inblue/Documents/OAuthiPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/OAuthiPhoneViewController.nib /Users/inblue/Documents/OAuthiPhone/OAuthiPhoneViewController.xib0#
-
-CGenerateDSYMFile /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app.dSYM /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/OAuthiPhone
-r0
-
-CLd /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/OAuthiPhone normal i386
-r0
-
-CProcessInfoPlistFile /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/Info.plist OAuthiPhone-Info.plist
-s288514529.925742
-e288514529.931084
-r1
-xProcessInfoPlistFile
-x/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/Info.plist
-xOAuthiPhone-Info.plist
-lSLF07#2@30"Process OAuthiPhone-Info.plist288514529#288514529#0(0"0(0#0#58"/Users/inblue/Documents/OAuthiPhone/OAuthiPhone-Info.plist4300885448#482"    cd /Users/inblue/Documents/OAuthiPhone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OAuthiPhone-Info.plist -genpkginfo /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app/Info.plist0#
-
-CProcessPCH /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-ceifsnvnaumwvsfobnmzvfxtpvyl/OAuthiPhone_Prefix.pch.gch OAuthiPhone_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
-s288514530.745771
-e288514531.560425
-r1
-xProcessPCH
-x/var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-ceifsnvnaumwvsfobnmzvfxtpvyl/OAuthiPhone_Prefix.pch.gch
-xOAuthiPhone_Prefix.pch
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile OAuthiPhone_Prefix.pch288514530#288514531#0(0"0(0#0#58"/Users/inblue/Documents/OAuthiPhone/OAuthiPhone_Prefix.pch4300885448#1787"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -c /Users/inblue/Documents/OAuthiPhone/OAuthiPhone_Prefix.pch -o /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-ceifsnvnaumwvsfobnmzvfxtpvyl/OAuthiPhone_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch.gch OAuthiPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s288514530.736616
-e288514532.343561
-r1
-xProcessPCH
-x/var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch.gch
-xOAuthiPhone_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile OAuthiPhone_Prefix.pch288514530#288514532#0(0"0(0#0#58"/Users/inblue/Documents/OAuthiPhone/OAuthiPhone_Prefix.pch4300885448#1797"    cd /Users/inblue/Documents/OAuthiPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-generated-files.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-own-target-headers.hmap -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-all-target-headers.hmap -iquote /Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/OAuthiPhone-project-headers.hmap -F/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator -I/Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/include -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources/i386 -I/Users/inblue/Documents/OAuthiPhone/build/OAuthiPhone.build/Debug-iphonesimulator/OAuthiPhone.build/DerivedSources -c /Users/inblue/Documents/OAuthiPhone/OAuthiPhone_Prefix.pch -o /var/folders/j4/j4z7UMT3EuK0g-zG-GEjOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthiPhone_Prefix-hlbrzqtefswfufghmpcevaithnyl/OAuthiPhone_Prefix.pch.gch0#
-
-CTouch /Users/inblue/Documents/OAuthiPhone/build/Debug-iphonesimulator/OAuthiPhone.app
-r0
-
