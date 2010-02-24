@@ -34,7 +34,7 @@
 - (NSURL *) authorizeURLwithBaseURL:(NSString *)authorize_url;
 - (void) requestAccessTokenWithURL:(NSString *)access_token_url;
 - (void) setAccessTokenKey:(NSString *)access_token secret:(NSString *)secret_token;
-- (void) accessResourceWithURL:(NSString *)resource_url HTTPMethod:(NSString *)http_method HTTPBody:(NSData *)http_body HTTPHeaders:(NSDictionary *)http_headers;
+- (void) accessResourceWithURL:(NSString *)resource_url HTTPMethod:(NSString *)http_method HTTPBody:(NSData *)http_body HTTPParams:(NSArray *)http_params HTTPHeaders:(NSDictionary *)http_headers;
 
 @property (retain, nonatomic) OAToken					*requestToken;
 @property (retain, nonatomic) OAToken					*accessToken;

@@ -18,28 +18,26 @@
 @implementation OAuthiPhoneViewController
 
 
-
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
         // Custom initialization
     }
     return self;
 }
-*/
 
-
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
 	UIView *contentView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
-	//client = [[OAuthClientTest alloc] init];
-	//[client accessResource];
+	self.view = contentView;
+	[contentView release];
+	
 	oauth = [[OAuthHelper alloc ]initWithConsumerKey:kOAConsumerKey secret:kOAConsumerSecretKey];
 	[oauth setDelegate:self];
+	
 	NSString *access_token_key = [[NSUserDefaults standardUserDefaults] objectForKey:@"oauth_token_key"];
 	NSString *access_token_secret = [[NSUserDefaults standardUserDefaults] objectForKey:@"oauth_token_secret"];
-	if (access_token_key == nil || access_token_secret == nil) {
+
+	if ((access_token_key == nil) || (access_token_secret == nil)) {
+		NSLog(@"test");
 		[oauth requestRequestTokenWithURL:kOARequestTokenURL];
 		sleep(20);
 		[oauth requestAccessTokenWithURL:kOAAccessTokenURL];
@@ -47,7 +45,6 @@
 		[oauth setAccessTokenKey:access_token_key secret:access_token_secret];
 	}
 
-	
 	NSString *content = @"\r\n\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?> \
 	<entry xmlns=\"http://www.w3.org/2005/Atom\" \
 	xmlns:db=\"http://www.douban.com/xmlns/\"> \
@@ -65,52 +62,14 @@
 	[oauth accessResourceWithURL:kOAResourceURL
 					  HTTPMethod:@"POST"
 						HTTPBody:http_body
+					  HTTPParams:nil
 					 HTTPHeaders:header];
-
-	self.view = contentView;
-	[contentView release];
-}
-
-- (void) test
-{
-	[client requestAccessToken];
-	
-}
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
-}
-
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
 }
 
 - (void) getRequestToken:(OAToken *) request_token
 {
-	NSLog(@"show request_token:%@", request_token);
 	NSURL *url = [oauth authorizeURLwithBaseURL:kOAAuthorizeTokenURL];
 	NSLog(@"authorize url:%@", url);
-	
 }
 - (void) getAccessToken:(OAToken *) access_token
 {

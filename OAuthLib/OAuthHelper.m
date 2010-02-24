@@ -32,7 +32,6 @@
 																	  realm:nil
 														  signatureProvider:nil];
 	OADataFetcher *fetcher = [[OADataFetcher alloc] init];
-	//NSLog(@"debug show request_token_url:%@", request_token_url);
 	[fetcher fetchDataWithRequest:request 
 						 delegate:self 
 				didFinishSelector:@selector(requestTokenTicket:didFinishWithData:) 
@@ -149,12 +148,11 @@
 	
 	if (http_body != nil) {
 		[request setHTTPBody:http_body];
-	} else if (HTTPParams != nil) {
+	} else if (http_params != nil) {
 		for (NSString *key in http_params) {
 			[request setParameters:http_params];
 		}
 	}
-	
 
 	[request setHTTPMethod:http_method];
 	

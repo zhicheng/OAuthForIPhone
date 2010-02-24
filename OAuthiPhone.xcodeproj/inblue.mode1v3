@@ -297,7 +297,7 @@
 							<real>349</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>19 184 1661 844 0 0 1680 1028 </string>
+						<string>58 184 1661 844 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>61C3DEA51135047100C8FEA7</string>
+										<string>61C3DF1B1135273D00C8FEA7</string>
 										<key>history</key>
 										<array>
 											<string>61690AB61132691B004412AE</string>
@@ -337,9 +337,6 @@
 											<string>61D2D1F61133D1170096E529</string>
 											<string>61D2D1F71133D1170096E529</string>
 											<string>61D2D1FB1133E7060096E529</string>
-											<string>61C3DDEF1134E07800C8FEA7</string>
-											<string>61C3DE5D1134F72E00C8FEA7</string>
-											<string>61C3DE661134F7E500C8FEA7</string>
 											<string>61C3DE821134FD1B00C8FEA7</string>
 											<string>61C3DE831134FD1B00C8FEA7</string>
 											<string>61C3DE841134FD1B00C8FEA7</string>
@@ -347,13 +344,12 @@
 											<string>61C3DE861134FD1B00C8FEA7</string>
 											<string>61C3DE871134FD1B00C8FEA7</string>
 											<string>61C3DE881134FD1B00C8FEA7</string>
-											<string>61C3DE891134FD1B00C8FEA7</string>
-											<string>61C3DE98113502D400C8FEA7</string>
-											<string>61C3DE99113502D400C8FEA7</string>
-											<string>61C3DEA21135047100C8FEA7</string>
-											<string>61C3DEA31135047100C8FEA7</string>
-											<string>61C3DEA41135047100C8FEA7</string>
-											<string>61C3DE97113502D400C8FEA7</string>
+											<string>61C3DED41135107800C8FEA7</string>
+											<string>61C3DEE41135184900C8FEA7</string>
+											<string>61C3DEF41135193C00C8FEA7</string>
+											<string>61C3DEF51135193C00C8FEA7</string>
+											<string>61C3DEFC113519D800C8FEA7</string>
+											<string>61C3DEFD113519D800C8FEA7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -367,7 +363,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1290, 600}}</string>
 								<key>RubberWindowFrame</key>
-								<string>19 184 1661 844 0 0 1680 1028 </string>
+								<string>58 184 1661 844 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -387,7 +383,7 @@
 								<key>Frame</key>
 								<string>{{0, 605}, {1290, 198}}</string>
 								<key>RubberWindowFrame</key>
-								<string>19 184 1661 844 0 0 1680 1028 </string>
+								<string>58 184 1661 844 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -553,11 +549,11 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>616908F0113261EC004412AE</string>
-		<string>/Users/inblue/Documents/OAuthiPhone/OAuthiPhone.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/inblue/Documents/OAuthiPhone/OAuthiPhone.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>19 184 1661 844 0 0 1680 1028 </string>
+	<string>58 184 1661 844 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -573,6 +569,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -595,8 +593,6 @@
 							<string>349pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

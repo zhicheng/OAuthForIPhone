@@ -16,7 +16,6 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* OAuthiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* OAuthiPhoneViewController.m */; };
 		616908E611326116004412AE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616908E511326116004412AE /* Security.framework */; };
-		616908EB11326180004412AE /* OAuthClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 616908EA11326180004412AE /* OAuthClientTest.m */; };
 		61C3DD6E1134CA8E00C8FEA7 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 61C3DD521134CA8E00C8FEA7 /* Base64Transcoder.c */; };
 		61C3DD6F1134CA8E00C8FEA7 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C3DD551134CA8E00C8FEA7 /* NSMutableURLRequest+Parameters.m */; };
 		61C3DD701134CA8E00C8FEA7 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C3DD571134CA8E00C8FEA7 /* NSString+URLEncoding.m */; };
@@ -31,7 +30,6 @@
 		61C3DD791134CA8E00C8FEA7 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C3DD691134CA8E00C8FEA7 /* OAServiceTicket.m */; };
 		61C3DD7A1134CA8E00C8FEA7 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C3DD6C1134CA8E00C8FEA7 /* OAToken.m */; };
 		61C3DD921134CB8B00C8FEA7 /* OAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C3DD911134CB8B00C8FEA7 /* OAuthHelper.m */; };
-		61C3DD951134CB9C00C8FEA7 /* OAuthDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C3DD941134CB9C00C8FEA7 /* OAuthDataStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +46,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* OAuthiPhone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthiPhone_Prefix.pch; sourceTree = "<group>"; };
 		616908E511326116004412AE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		616908E911326180004412AE /* OAuthClientTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthClientTest.h; sourceTree = "<group>"; };
-		616908EA11326180004412AE /* OAuthClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthClientTest.m; sourceTree = "<group>"; };
 		61C3DD521134CA8E00C8FEA7 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
 		61C3DD531134CA8E00C8FEA7 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
 		61C3DD541134CA8E00C8FEA7 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
@@ -80,8 +76,6 @@
 		61C3DD6D1134CA8E00C8FEA7 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
 		61C3DD901134CB8B00C8FEA7 /* OAuthHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthHelper.h; sourceTree = "<group>"; };
 		61C3DD911134CB8B00C8FEA7 /* OAuthHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthHelper.m; sourceTree = "<group>"; };
-		61C3DD931134CB9C00C8FEA7 /* OAuthDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthDataStore.h; sourceTree = "<group>"; };
-		61C3DD941134CB9C00C8FEA7 /* OAuthDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthDataStore.m; sourceTree = "<group>"; };
 		61C3DDA91134D9CC00C8FEA7 /* OAuthLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthLib.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* OAuthiPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OAuthiPhone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,8 +102,6 @@
 				1D3623250D0F684500981E51 /* OAuthiPhoneAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* OAuthiPhoneViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* OAuthiPhoneViewController.m */,
-				616908E911326180004412AE /* OAuthClientTest.h */,
-				616908EA11326180004412AE /* OAuthClientTest.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -172,8 +164,6 @@
 				61C3DDA91134D9CC00C8FEA7 /* OAuthLib.h */,
 				61C3DD901134CB8B00C8FEA7 /* OAuthHelper.h */,
 				61C3DD911134CB8B00C8FEA7 /* OAuthHelper.m */,
-				61C3DD931134CB9C00C8FEA7 /* OAuthDataStore.h */,
-				61C3DD941134CB9C00C8FEA7 /* OAuthDataStore.m */,
 			);
 			path = OAuthLib;
 			sourceTree = "<group>";
@@ -278,7 +268,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* OAuthiPhoneAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* OAuthiPhoneViewController.m in Sources */,
-				616908EB11326180004412AE /* OAuthClientTest.m in Sources */,
 				61C3DD6E1134CA8E00C8FEA7 /* Base64Transcoder.c in Sources */,
 				61C3DD6F1134CA8E00C8FEA7 /* NSMutableURLRequest+Parameters.m in Sources */,
 				61C3DD701134CA8E00C8FEA7 /* NSString+URLEncoding.m in Sources */,
@@ -293,7 +282,6 @@
 				61C3DD791134CA8E00C8FEA7 /* OAServiceTicket.m in Sources */,
 				61C3DD7A1134CA8E00C8FEA7 /* OAToken.m in Sources */,
 				61C3DD921134CB8B00C8FEA7 /* OAuthHelper.m in Sources */,
-				61C3DD951134CB9C00C8FEA7 /* OAuthDataStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
